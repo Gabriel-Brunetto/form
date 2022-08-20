@@ -1,0 +1,41 @@
+html{
+    margin: 0px;
+    padding: 0px;
+    background-color: grey;
+}
+
+form{
+    position: absolute;
+    background-color: white;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 300px;
+    height: 400px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+input{
+    top: 80px;
+    position:relative;
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 250px;
+    height: 15px;
+    border: none;
+    border-bottom: 2px solid black;
+    background: transparent;
+}
+
+.botao-enviar{
+    display: flex;
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 5px 25px;
+    margin: 150px auto;
+    cursor: pointer;
+}
